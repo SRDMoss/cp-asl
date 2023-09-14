@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Categorical Perception of ASL - Results</title>
+        <link rel="icon" href="./favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+        <script src="./script/script.js" defer></script>
+    </head>
+
+    <body>
+        <div id="site-area">
+            <header id="top">    
+                <div id="menu-box">
+                    <input type="checkbox" id="hamburger-input" class="burger-shower">
+                    <label id="hamburger-icon" for="hamburger-input">
+                        <i class="fa-solid fa-bars" id="open-menu"></i>
+                        <i class="fa-solid fa-x" id="close-menu"></i> 
+                    </label>   
+
+                    <nav id="dropdown-menu"> 
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="introduction.html">Introduction</a></li>
+                            <li><a href="methods.html">Methods</a></li>
+                            <li><a href="results.html">Results</a></li>
+                            <li><a href="discussion.html">Discussion</a></li>
+                            <li><a href="references.html">References &amp; Appendices</a></li>
+                            <li><a href="https://github.com/SRDMoss/cp-asl">Github</a></li>
+                        </ul>
+                    </nav> 
+                </div>
+                
+                <section id="full-title">
+                    <h1 id="page-title">Categorical Perception of Palm Orientation in American Sign Language</h1>   
+                    <span id="byline">by Stephen Richard DeVilbiss Moss</span>              
+                </section>                            
+            </header>
+
+            <main>
+                <h2>Results</h2>
+
+                <article>
+                    <p>Responses at each level of context and speaker experience were significantly different from a uniform distribution (one-sample Kolmogorov-Smirnoff test, Native/Clock: 
+                        D=.115, p&lt;.001; Native/Street: D=.224, p&lt;.001; Na&iuml;ve/Clock: D=.100, p&lt;.001; Na&iuml;ve/Street: D=.163, p&lt;.001). Because display videos were presented in equal number 
+                        to all subjects, we can conclude that there is a preferential effect of clustering that produces a non-uniform multinomial distribution of responses. </p>
+                </article>
+
+                <article id="stats-table">
+                    <h3>D values for each condition from a one-sample Kolmogorov-Smirnoff test.</h3>
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th scope="col">Native</th>                        
+                            <th scope="col">Na&iuml;ve</th>
+                        </tr>
+                        <tr>
+                            <th scope="row">Clock</th>
+                            <td>.115</td>
+                            <td>.100</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Street</th>
+                            <td>.224</td>
+                            <td>.163</td>
+                        </tr>
+                    </table>
+                </article>
+                
+                <article>
+                    <p>This clustering is also not equivalent in each condition. A two-sample KS test for native and naïve speakers' responses in the Street Context indicated D=.092, p&lt;.001, 
+                        so we conclude they represent samples from the different populations for both experience levels. In the Clock Context, KS test for Native and Naïve speakers indicated D=.054, 
+                        p=.006, so we conclude they represent samples from the different populations for both experience levels as well. Two-sample KS tests were also performed for each speaker 
+                        experience group&apos;s responses. Native speakers KS test for Street and Clock context indicated D=.154, p&lt;.001. Naïve speaker KS test for Street and Clock contexts 
+                        indicated D=.074, p&lt;.001. The full distribution for each response condition is shown in Fig. 1 (Appendix D). Average response token for each display token is shown in 
+                        Fig. 2 (Appendix E).</p>
+                </article>
+
+                <article>
+                    <h3>Appendices D & E are reproduced here for your convenience.</h3>
+
+
+                    <figure>
+                        <img class="media" src="./assets/img/Response-per-display-token.jpg" alt="Four histograms showing the average response per display token for each experimental condition.">
+                        <figcaption>Appendix D: Average response angle per each display token separated by condition.</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img class="media" src="./assets/img/Counts-Response-Angle.jpg" alt="Histogram of total number of responses selected for each along the continuum, separated by condition..">
+                        <figcaption>Appendix E: Histogram of total number of responses selected for each along the continuum, separated by condition.</figcaption>
+                    </figure>
+
+                </article>  
+                <article>
+                    <p>To measure discrimination we used a linear mixed model to describe accuracy, using speaker and context within each display token interval as fixed effects and random effects 
+                        within-subject; pairwise comparisons were Tukey-adjusted to control experiment-wise error rate. Within display token intervals, there was no difference in correctness among 
+                        levels of speaker or context at &alpha;=0.05, with one exception; respondents were 14% more accurate at the 30º - 40º interval in the Native,Street condition than for Native,Clock 
+                        (t=-2.99, p=0.016). Percent accuracy at each interval for each condition is shown in Fig. 3 (Appendix F). </p>
+                </article>
+            </main>
+            <footer id="bottom">
+                <hr>
+                    &copy; 2014, 2015, 2023, Stephen Moss.
+                <hr>
+            </footer>
+
+            <!-- Modal -->
+            <div id="mediaModal" class="modal">                
+                <div class="modal-content" id="modalContent">
+                    <!-- Dynamic content here -->
+                </div>
+                <span class="close-btn" id="closeModal">&times;</span>
+            </div>
+        </div>
+    </body>
+</html>
